@@ -1,0 +1,16 @@
+.redErrorP {
+    color: orangered;
+    font-size: 13px;
+    font-weight: bold;
+    padding-left: 0.3rem;
+}
+
+.maxFixedWidth {
+    width: 20rem;
+}
+
+@media only screen and (max-width : 420px) {
+    .maxFixedWidth {
+        width: 12rem;
+    }
+}
